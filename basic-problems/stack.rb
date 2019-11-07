@@ -17,6 +17,8 @@ class Stack
         @array[-1]
     end
 
+    private 
+    attr_reader :array
 
 end
 
